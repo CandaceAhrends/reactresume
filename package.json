@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev-local": "vite --host 0.0.0.0 ",
     "server": "npx babel server.js --out-dir app",
     "start-server": "npm run server && node app/server.js",
