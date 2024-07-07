@@ -1,7 +1,6 @@
 ul {
   font-size: 0.8rem;
 }
-
 h4 {
   margin: 1rem 2.5rem;
 }
@@ -9,11 +8,13 @@ h4 {
   width: 60rem;
   margin: 0 2.5rem;
   padding-top: 1rem;
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 70%;
+  .sub-header {
+    color: rgb(128, 132, 128);
+  }
   span {
     font-size: 0.7rem;
   }
@@ -23,12 +24,14 @@ h4 {
   }
 }
 .job-descriptions {
+  padding: 0 0 0 1.5rem;
   li {
     width: 80%;
   }
 }
 .job-cards {
   margin: 1.2rem;
+  max-width: 80rem;
 
   div {
     background: rgb(5 10 6);
@@ -105,5 +108,18 @@ h4 {
   }
   .block {
     height: 10rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .skills,
+  .about-me {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me {
+    width: 90%;
+    max-width: 40rem;
   }
 }

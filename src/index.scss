@@ -65,3 +65,19 @@ body {
   scrollbar-width: thin;
   scrollbar-color: var(--asset-color) transparent;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--asset-color);
+  border-radius: 10px;
+}

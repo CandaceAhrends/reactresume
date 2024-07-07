@@ -11,8 +11,7 @@ export const jobs = [
     Graph QL queries that replaced multiple SQL calls to an older database#
 Modified and enhanced several micro-services. and deployed these using Kubernetes as
 well as updating NPM packages to the latest to migrate from Node 14 to Node 18#
-Troubleshoot and monitor services and applications in Kubernetes and Elk logs as well as
-manage PROD deployments and Kubernetes credentials and config maps for new API's`,
+Troubleshoot and monitor services and applications in Kubernetes and Elk logs and also added Kubernetes credentials and config maps for new API's`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
@@ -26,8 +25,8 @@ Implement reusable components which are used across multiple
 applications including a programatic trading application using WebSockets
 to update live data into the grid to show risk and trade data that was built
 using my shared components library#
-Implemented a Self Service tool using WebSockets, React router Dom, Ag-
-grid, Sass, RxJs, and other technologies to automate onboarding new
+Implemented a Self Service tool using WebSockets, React Router Dom, Ag-
+grid, Sass, and other technologies to automate onboarding new
 assets. This application is driven by metadata to describe the form fields
 from the server side and guides the user through each step where there are
 different actions for different roles.`,
@@ -37,12 +36,12 @@ different actions for different roles.`,
     company: "Brown Brothers Harriman",
     dates: "Dec 2019 - Apr 2021",
     title: "Senior Web Developer.",
-    description: `Design and architected reusable components and new features for the team and using
+    description: `Design and architected reusable components and new features for the team and built
 shared libraries#
 Design services using RxJs to manage multiple endpoints sharing response data between
 components#
-Developed single spa shell container and menu that brought multiple micro front-end and
-allowed configuration for additional applications and manage rest api calls to micro-services`,
+Developed a single spa shell container and menu that integrated multiple micro front-ends and
+allowed configuration for additional applications and management of REST API calls to micro-services`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
@@ -50,7 +49,7 @@ allowed configuration for additional applications and manage rest api calls to m
     subHeader: "(contract Bank of America)",
     dates: "Apr 2019 - Dec 2019",
     title: "Senior Web Developer",
-    description: `Designed and architected new tools using React for middle office#
+    description: `Designed and architected new tools using React for the middle office#
   Involved in weekly design discussions and planning as well as requirements gathering#
   Wrote common component NPM library to share and reuse components across
   applications such as the header, footer, userData, custom select components and
@@ -59,8 +58,7 @@ allowed configuration for additional applications and manage rest api calls to m
   Implemented a Redux like Store using useReducer, useContext, and other React hooks
   as well as custom hooks#
   Participated in code reviews and best practices#
-  Created and utilized code for sorting, parsing, validating, and others#
-  Wrote RxJS Observables to map and parse data from the backend`,
+  Created and utilized code for sorting, parsing, validating, and others`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
@@ -74,7 +72,7 @@ allowed configuration for additional applications and manage rest api calls to m
   in quarterly data and processed this into tabular data tables#
   Used a Docker container app with Node.js to create proxy server for a POC to integrate an
   older technology into the new Angular application for different environments based an API
-  response#
+  responses#
   Implemented NgRx store for the application using effects for all server side requests and
   responses#
   Implemented styles and UI using Angular Material and Sass based on wireframes`,
@@ -88,7 +86,7 @@ allowed configuration for additional applications and manage rest api calls to m
     description: `Design and develop scalable code along with reusable directives and shared services using
   Angular and ES6 via Babel to integrate various systems into one main portal and query user
   entitlements to determine and filter the visual work area for ops users#
-  Collaborated with the back end developers to design the REST API architecture and data
+  Collaborated with the back-end developers to design the REST API architecture and data
   flow#
   Added routing architecture using AngularJS ui-router to set up the navigational scheme and
   views and implemented Angular interceptors to manage app-wide API request`,

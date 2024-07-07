@@ -6,8 +6,12 @@ const JobHeader = ({ title, company, subHeader, dates }) => {
     <section class="job-header">
       <Typography variant="body2">{company}</Typography>
       <Typography variant="caption">{dates}</Typography>
-      <Typography variant="body2">{subHeader}</Typography>
-      <Typography variant="caption">{title}</Typography>
+      <Typography variant="body2">
+        <span className="sub-header">{subHeader}</span>
+      </Typography>
+      <Typography variant="caption">
+        <span className="sub-header">{title}</span>
+      </Typography>
     </section>
   );
 };
