@@ -1,1 +1,1 @@
-# React + Vite Resume
+# Resume

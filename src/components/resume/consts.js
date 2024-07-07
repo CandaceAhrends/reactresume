@@ -19,9 +19,9 @@ Troubleshoot and monitor services and applications in Kubernetes and Elk logs an
     subHeader: "(contract Bank of America)",
     dates: "April 2021 – Dec 2021",
     title: "Senior Web Developer",
-    description: `Maintain and manage the Webpack configuration for customization and
+    description: `Maintained and managed the Webpack configuration for customization and
 deployment to the GBAM desktop using OpenFin#
-Implement reusable components which are used across multiple
+Implemented reusable components which are used across multiple
 applications including a programatic trading application using WebSockets
 to update live data into the grid to show risk and trade data that was built
 using my shared components library#
@@ -36,9 +36,9 @@ different actions for different roles.`,
     company: "Brown Brothers Harriman",
     dates: "Dec 2019 - Apr 2021",
     title: "Senior Web Developer.",
-    description: `Design and architected reusable components and new features for the team and built
+    description: `Designed and architected reusable components and new features for the team and built
 shared libraries#
-Design services using RxJs to manage multiple endpoints sharing response data between
+Designed services using RxJs to manage multiple endpoints sharing response data between
 components#
 Developed a single spa shell container and menu that integrated multiple micro front-ends and
 allowed configuration for additional applications and management of REST API calls to micro-services`,
@@ -83,7 +83,7 @@ allowed configuration for additional applications and management of REST API cal
     subHeader: "(contract Bank of America )",
     dates: "May 2016 - Jul 2017",
     title: "Senior Web Developer",
-    description: `Design and develop scalable code along with reusable directives and shared services using
+    description: `Designed and developed scalable code along with reusable directives and shared services using
   Angular and ES6 via Babel to integrate various systems into one main portal and query user
   entitlements to determine and filter the visual work area for ops users#
   Collaborated with the back-end developers to design the REST API architecture and data
@@ -116,18 +116,18 @@ Strong front-end UI and backend development skills
 Expertise in architecting and designing Applications as well as maintaining existing code
 Expertise in delivering high-quality, efficient, reusable, and maintainable code
 Good Interpersonal skills gained through interaction with technical and functional teams
-A well-organized, goal-oriented, highly motivated effective team member with excellent
-Passionate about staying up-to-date with the latest advancements in the tech industry
+A well-organized, goal-oriented, highly motivated effective team member
+Excellent analytical, troubleshooting, and problem solving skills
 Ability to learn new tools, concepts and environments quickly`;
 
-export const resumeExperience = `Design, develop, and modify Front-end applications
+export const resumeExperience = `Design, develop, and modify front-end applications
 Develop backend API’s and micro-services using Node.js
 Debugging and troubleshooting code
 Updating configuration such as Webpack
 Mentoring and guiding other team members since 2016
 Writing unit tests and integration tests
 Writing reusable components and shared libraries
-Git, code documentation, UI demo’s, requirements, Jira
+Git, linting, code documentation, UI demo’s, requirements, Jira
 Code reviews, best practices
 Agile since 2016`;
 
