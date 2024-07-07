@@ -13,7 +13,7 @@ const SummaryLine = ({ line }) => (
 const Summary = () => {
   return (
     <>
-      <section>
+      <section className="summary">
         <h4>Summary</h4>
         <ul>
           {summaryLines.map((line) => (
@@ -21,7 +21,7 @@ const Summary = () => {
           ))}
         </ul>
       </section>
-      <section>
+      <section className="summary">
         <h4>Experience</h4>
         <ul>
           {experienceLines.map((line) => (
@@ -29,6 +29,7 @@ const Summary = () => {
           ))}
         </ul>
       </section>
+      <section className="block"></section>
     </>
   );
 };

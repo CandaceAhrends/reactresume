@@ -1,5 +1,5 @@
 export const MENU_ITEMS = [
-  { name: "list", icon: "list" },
+  { name: "summary", icon: "summary" },
   { name: "jobs", icon: "jobs" },
   { name: "skills", icon: "skills" },
   { name: "links", icon: "link" },

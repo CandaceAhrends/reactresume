@@ -2,14 +2,19 @@ nav {
   .menu-list {
     background: var(--menu-background-color);
     transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 6px 1px #333;
     li {
       line-height: 2;
       position: relative;
+      opacity: 0;
 
       &.selected {
         background-color: var(--menu-hover-color);
       }
     }
+  }
+  .ham-menu:not(.closed) {
+    box-shadow: 0px -8px 9px 1px #333;
   }
 }
 
@@ -26,6 +31,7 @@ nav {
       margin-left: -1rem;
       justify-content: space-around;
       li {
+        opacity: 10;
         &:first-child {
           display: none;
         }
@@ -84,7 +90,11 @@ nav {
     flex-direction: column;
     padding: 0.4rem;
     justify-content: center;
-
+    &.active {
+      li {
+        opacity: 9;
+      }
+    }
     li {
       margin: 0.5rem;
 

@@ -17,6 +17,7 @@ const Jobs = () => {
           </DescriptionCard>
         </section>
       ))}
+      <section className="block"></section>
     </div>
   );
 };

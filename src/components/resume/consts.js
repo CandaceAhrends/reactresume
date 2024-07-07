@@ -65,7 +65,7 @@ allowed configuration for additional applications and manage rest api calls to m
   // --------------------------------------------------------------------------------------------------------
   {
     company: "Starpoint",
-    subHeader: "(contract Federal Reserve Bank of New York)",
+    subHeader: "(contract FR Bank of New York)",
     dates: "Apr 2018 - Apr 2019",
     title: "Senior Web Developer",
     description: `Implemented a reservation system application using Angular 6 including Angular Material,

@@ -11,7 +11,7 @@ const Content = () => {
     <section className="content">
       <Routes>
         <Route path="/" element={<Summary />} />
-        <Route path="/list" element={<Summary />} />
+        <Route path="/summary" element={<Summary />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/links" element={<Links />} />
         <Route path="/skills" element={<Skills />} />

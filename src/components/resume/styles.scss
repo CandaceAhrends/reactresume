@@ -9,6 +9,18 @@ h4 {
   width: 60rem;
   margin: 0 2.5rem;
   padding-top: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 70%;
+  span {
+    font-size: 0.7rem;
+  }
+  p {
+    width: 50%;
+    font-size: 0.8rem;
+  }
 }
 .job-descriptions {
   li {
@@ -23,6 +35,13 @@ h4 {
     > div {
       display: flex;
       justify-content: end;
+    }
+  }
+}
+.summary {
+  ul {
+    li {
+      padding: 0.2rem 0;
     }
   }
 }
@@ -50,6 +69,9 @@ h4 {
 .about-me {
   margin: 2.5rem;
 }
+.link-list {
+  margin: 3rem 0;
+}
 .link {
   display: flex;
   padding: 0 1rem;
@@ -68,5 +90,20 @@ h4 {
 @media (max-width: 599px) {
   .job-cards {
     margin: 0.5rem 0 0 0;
+  }
+
+  .summary {
+    margin: 0 0 0 -1rem;
+    max-width: 98%;
+    ul {
+      li {
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  .block {
+    height: 10rem;
   }
 }
