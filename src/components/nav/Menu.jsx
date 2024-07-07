@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import Items from "./Items";
-import Ham from "/ham.svg";
-import Exit from "/exit.svg";
-import classNames from "classnames";
+import React, { useState } from 'react';
+import Items from './Items';
+import Ham from '/ham.svg';
+import Exit from '/exit.svg';
+import classNames from 'classnames';
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
   const navClass = classNames({
-    "ham-menu": true,
+    'ham-menu': true,
     clickable: true,
     closed: !open,
   });

@@ -1,12 +1,11 @@
-import React from "react";
-
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import Block from './Block';
+import Typography from '@mui/material/Typography';
 
 const About = () => {
   return (
     <>
-      <section>
-        <h4>About</h4>
+      <Block title="About">
         <div className="about-me">
           <Typography paragraph>
             I am a passionate web developer who enjoys coding in JavaScript and
@@ -16,7 +15,21 @@ const About = () => {
             in shape.
           </Typography>
         </div>
-      </section>
+      </Block>
+      <Block title="Education">
+        <ul className="education">
+          <li>
+            <Typography>
+              Bachelor of Arts from The University of Texas at Arlington
+            </Typography>
+          </li>
+          <li>
+            <Typography>
+              GPA: 3.2 and 18 hours towards my MS in Information Systems
+            </Typography>
+          </li>
+        </ul>
+      </Block>
     </>
   );
 };

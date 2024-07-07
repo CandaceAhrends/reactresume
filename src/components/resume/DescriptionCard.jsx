@@ -1,10 +1,10 @@
-import React, { useEffect, useState, Children } from "react";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import Down from "/down.svg";
-import CardContent from "@mui/material/CardContent";
-import classNames from "classnames";
-import "./styles.scss";
+import React, { useEffect, useState, Children } from 'react';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import Down from '/down.svg';
+import CardContent from '@mui/material/CardContent';
+import classNames from 'classnames';
+import './styles.scss';
 
 const DescriptionCard = ({ children }) => {
   const [expanded, setExpanded] = useState(false);
@@ -22,14 +22,14 @@ const DescriptionCard = ({ children }) => {
     setExpanded(!expanded);
   };
   const cardClass = classNames({
-    "expand-content": true,
+    'expand-content': true,
     expanded,
   });
   return (
     <Card className="clickable" onClick={handleExpandClick}>
       {header}
       <CardActions disableSpacing>
-        <div className={`expand-icon clickable ${expanded ? "up" : ""}`}>
+        <div className={`expand-icon clickable ${expanded ? 'up' : ''}`}>
           <img src={Down} alt="arrow"></img>
         </div>
       </CardActions>

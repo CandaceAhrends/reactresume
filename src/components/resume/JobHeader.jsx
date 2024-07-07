@@ -1,5 +1,5 @@
-import React from "react";
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import Typography from '@mui/material/Typography';
 
 const JobHeader = ({ title, company, subHeader, dates }) => {
   return (

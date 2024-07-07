@@ -1,8 +1,9 @@
-import React from "react";
-import { resumeExperience, resumeSummary } from "./consts";
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import { resumeExperience, resumeSummary } from './consts';
+import Typography from '@mui/material/Typography';
 const summaryLines = resumeSummary.split(/\n/g);
 const experienceLines = resumeExperience.split(/\n/g);
+import Block from './Block';
 
 const SummaryLine = ({ line }) => (
   <li>
@@ -13,22 +14,20 @@ const SummaryLine = ({ line }) => (
 const Summary = () => {
   return (
     <>
-      <section className="summary">
-        <h4>Summary</h4>
+      <Block sectionClass="summary" title="Summary">
         <ul>
           {summaryLines.map((line) => (
             <SummaryLine line={line}></SummaryLine>
           ))}
         </ul>
-      </section>
-      <section className="summary">
-        <h4>Experience</h4>
+      </Block>
+      <Block sectionClass="summary" title="Experience">
         <ul>
           {experienceLines.map((line) => (
             <SummaryLine line={line}></SummaryLine>
           ))}
         </ul>
-      </section>
+      </Block>
       <section className="block"></section>
     </>
   );

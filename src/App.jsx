@@ -1,20 +1,20 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Menu from "./components/nav/Menu";
-import Header from "./components/Header";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Menu from './components/nav/Menu';
+import Header from './components/Header';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
-    mode: "dark",
+    mode: 'dark',
     text: {
-      primary: "#ffffff",
-      secondary: "#ffffff",
+      primary: '#ffffff',
+      secondary: '#ffffff',
     },
   },
 });
-import Content from "./components/Content";
-import "./App.scss";
+import Content from './components/Content';
+import './App.scss';
 
 function App() {
   return (

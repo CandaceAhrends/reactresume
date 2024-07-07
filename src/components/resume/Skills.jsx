@@ -1,12 +1,12 @@
-import React from "react";
-import { currentSkills, goodKnowledge, someExperience } from "./consts";
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import { currentSkills, goodKnowledge, someExperience } from './consts';
+import Typography from '@mui/material/Typography';
+import Block from './Block';
 
 const Skills = () => {
   return (
     <div className="skills">
-      <section>
-        <h4>Skills</h4>
+      <Block title="Skills">
         <ul>
           {currentSkills.split(/\n/g).map((skill) => (
             <li>
@@ -14,9 +14,8 @@ const Skills = () => {
             </li>
           ))}
         </ul>
-      </section>
-      <section>
-        <h4>Good Knowledge</h4>
+      </Block>
+      <Block title="Good Knowledge">
         <ul>
           {goodKnowledge.split(/\n/g).map((skill) => (
             <li>
@@ -24,9 +23,8 @@ const Skills = () => {
             </li>
           ))}
         </ul>
-      </section>
-      <section>
-        <h4>Some experience</h4>
+      </Block>
+      <Block title="Some experience">
         <ul>
           {someExperience.split(/\n/g).map((skill) => (
             <li>
@@ -34,7 +32,7 @@ const Skills = () => {
             </li>
           ))}
         </ul>
-      </section>
+      </Block>
     </div>
   );
 };

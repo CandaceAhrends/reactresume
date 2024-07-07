@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Typography from "@mui/material/Typography";
-import "./styles.scss";
+import React, { useState } from 'react';
+import Typography from '@mui/material/Typography';
+import './styles.scss';
 
 const JobDescription = ({ descriptions }) => {
   const [descriptionLines] = useState(descriptions.split(/\#/g));

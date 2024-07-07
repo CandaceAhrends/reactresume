@@ -1,10 +1,10 @@
-import React from "react";
-import Jobs from "./resume/Jobs";
-import Summary from "./resume/Summary";
-import Skills from "./resume/Skills";
-import About from "./resume/About";
-import Links from "./resume/Links";
-import { Routes, Route } from "react-router-dom";
+import React from 'react';
+import Jobs from './resume/Jobs';
+import Summary from './resume/Summary';
+import Skills from './resume/Skills';
+import About from './resume/About';
+import Links from './resume/Links';
+import { Routes, Route } from 'react-router-dom';
 
 const Content = () => {
   return (

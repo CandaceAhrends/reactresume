@@ -1,9 +1,9 @@
-import React from "react";
-import JobHeader from "./JobHeader";
-import JobDescription from "./JobDescription";
-import { jobs } from "./consts";
-import DescriptionCard from "./DescriptionCard";
-import "./styles.scss";
+import React from 'react';
+import JobHeader from './JobHeader';
+import JobDescription from './JobDescription';
+import { jobs } from './consts';
+import DescriptionCard from './DescriptionCard';
+import './styles.scss';
 
 const Jobs = () => {
   return (

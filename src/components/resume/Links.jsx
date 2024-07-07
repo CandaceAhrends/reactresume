@@ -1,12 +1,12 @@
-import React from "react";
-import Link from "./Link";
-import GitHubIcon from "/gitHub.svg";
-import PDF from "/pdf.svg";
+import React from 'react';
+import Link from './Link';
+import GitHubIcon from '/gitHub.svg';
+import PDF from '/pdf.svg';
+import Block from './Block';
 
 const Links = () => {
   return (
-    <section>
-      <h4>Links</h4>
+    <Block title="Links">
       <div className="link-list">
         <Link href="https://github.com/CandaceAhrends">
           <img src={GitHubIcon} alt="github"></img>
@@ -17,7 +17,7 @@ const Links = () => {
           <span>Resume (pdf)</span>
         </Link>
       </div>
-    </section>
+    </Block>
   );
 };
 
