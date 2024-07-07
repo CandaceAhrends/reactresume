@@ -112,12 +112,6 @@ h4 {
 }
 
 @media (min-width: 600px) {
-  .skills,
-  .about-me {
-    display: flex;
-    justify-content: center;
-  }
-
   .about-me {
     width: 90%;
     max-width: 40rem;

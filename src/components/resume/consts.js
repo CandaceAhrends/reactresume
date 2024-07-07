@@ -111,7 +111,7 @@ allowed configuration for additional applications and management of REST API cal
 ];
 
 export const resumeSummary = `Highly skilled and experienced Software Developer with over 15 years of experience
-Strong front-end UI and backend development skills
+Strong front-end UI and back-end development skills
 Expertise in architecting and designing Applications as well as maintaining existing code
 Expertise in delivering high-quality, efficient, reusable, and maintainable code
 Good Interpersonal skills gained through interaction with technical and functional teams
@@ -120,7 +120,7 @@ Excellent analytical, troubleshooting, and problem solving skills
 Ability to learn new tools, concepts and environments quickly`;
 
 export const resumeExperience = `Design, develop, and modify front-end applications
-Develop backend API’s and micro-services using Node.js
+Develop back-end API’s and micro-services using Node.js
 Debugging and troubleshooting code
 Updating configuration such as Webpack
 Mentoring and guiding other team members since 2016
