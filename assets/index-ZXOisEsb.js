@@ -148,14 +148,14 @@ allowed configuration for additional applications and management of REST API cal
   format JSON data retrieved from the server from various REST API requests to present
   changes that could be drilled into and sorted in order to see consolidated data from multiple
   servers.`}],W4=`Highly skilled and experienced Software Developer with over 15 years of experience
-Strong front-end UI and backend development skills
+Strong front-end UI and back-end development skills
 Expertise in architecting and designing Applications as well as maintaining existing code
 Expertise in delivering high-quality, efficient, reusable, and maintainable code
 Good Interpersonal skills gained through interaction with technical and functional teams
 A well-organized, goal-oriented, highly motivated effective team member
 Excellent analytical, troubleshooting, and problem solving skills
 Ability to learn new tools, concepts and environments quickly`,F4=`Design, develop, and modify front-end applications
-Develop backend API’s and micro-services using Node.js
+Develop back-end API’s and micro-services using Node.js
 Debugging and troubleshooting code
 Updating configuration such as Webpack
 Mentoring and guiding other team members since 2016
