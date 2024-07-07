@@ -1,9 +1,8 @@
 export const jobs = [
   {
-    company: "Current Company",
-    subHeader: "(available upon request)",
-    dates: "Dec 2021 – Current",
-    title: "Senior Web Developer",
+    company: 'Northwestern Mutual',
+    dates: 'Dec 2021 – Current',
+    title: 'Senior Web Developer',
     description: `Designed and implemented a React application based on UX responsive mockups and
     collaborated with the Security team to integrate an identity service via a JavaScript SDK to
     add an extra layer of security to the login flow#Redesigned a legacy micro-service route that handles complex registration rules to Node 18
@@ -15,10 +14,10 @@ Troubleshoot and monitor services and applications in Kubernetes and Elk logs an
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: "Ettain group",
-    subHeader: "(contract Bank of America)",
-    dates: "April 2021 – Dec 2021",
-    title: "Senior Web Developer",
+    company: 'Ettain group',
+    subHeader: '(contract Bank of America)',
+    dates: 'April 2021 – Dec 2021',
+    title: 'Senior Web Developer',
     description: `Maintained and managed the Webpack configuration for customization and
 deployment to the GBAM desktop using OpenFin#
 Implemented reusable components which are used across multiple
@@ -33,9 +32,9 @@ different actions for different roles.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: "Brown Brothers Harriman",
-    dates: "Dec 2019 - Apr 2021",
-    title: "Senior Web Developer.",
+    company: 'Brown Brothers Harriman',
+    dates: 'Dec 2019 - Apr 2021',
+    title: 'Senior Web Developer.',
     description: `Designed and architected reusable components and new features for the team and built
 shared libraries#
 Designed services using RxJs to manage multiple endpoints sharing response data between
@@ -45,10 +44,10 @@ allowed configuration for additional applications and management of REST API cal
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: "Ettain group",
-    subHeader: "(contract Bank of America)",
-    dates: "Apr 2019 - Dec 2019",
-    title: "Senior Web Developer",
+    company: 'Ettain group',
+    subHeader: '(contract Bank of America)',
+    dates: 'Apr 2019 - Dec 2019',
+    title: 'Senior Web Developer',
     description: `Designed and architected new tools using React for the middle office#
   Involved in weekly design discussions and planning as well as requirements gathering#
   Wrote common component NPM library to share and reuse components across
@@ -62,10 +61,10 @@ allowed configuration for additional applications and management of REST API cal
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: "Starpoint",
-    subHeader: "(contract FR Bank of New York)",
-    dates: "Apr 2018 - Apr 2019",
-    title: "Senior Web Developer",
+    company: 'Starpoint',
+    subHeader: '(contract FR Bank of New York)',
+    dates: 'Apr 2018 - Apr 2019',
+    title: 'Senior Web Developer',
     description: `Implemented a reservation system application using Angular 6 including Angular Material,
   NgRx, RxJS, ES6, Sass, and custom security modules#
   Took over and added enhancements to a data processing app written in Node.js that read
@@ -79,10 +78,10 @@ allowed configuration for additional applications and management of REST API cal
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: "TEKSystems",
-    subHeader: "(contract Bank of America )",
-    dates: "May 2016 - Jul 2017",
-    title: "Senior Web Developer",
+    company: 'TEKSystems',
+    subHeader: '(contract Bank of America )',
+    dates: 'May 2016 - Jul 2017',
+    title: 'Senior Web Developer',
     description: `Designed and developed scalable code along with reusable directives and shared services using
   Angular and ES6 via Babel to integrate various systems into one main portal and query user
   entitlements to determine and filter the visual work area for ops users#
@@ -93,10 +92,10 @@ allowed configuration for additional applications and management of REST API cal
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: "Anagh Tech",
-    subHeader: "(contract Morgan Stanley)",
-    dates: "Dec 2013 – May 2016",
-    title: "Senior Web Developer",
+    company: 'Anagh Tech',
+    subHeader: '(contract Morgan Stanley)',
+    dates: 'Dec 2013 – May 2016',
+    title: 'Senior Web Developer',
     description: `Responsible for developing and ongoing maintenance of an analytics library written in Pure
   JavaScript that was injected into over 200 application pages to bootstrap and then listen
   and record user actions as well as page usage and speed metrics to be sent to a database
