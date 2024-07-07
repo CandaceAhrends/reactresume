@@ -24,7 +24,7 @@ const SideMenu = ({ open }) => {
         >
           <Link to={`/${menu.name}`}>
             <span className="icon">
-              <img src={`/assets/${menu.name}.svg`} alt={menu.name} />
+              <img src={`/reactresume/${menu.name}.svg`} alt={menu.name} />
             </span>
           </Link>
         </li>

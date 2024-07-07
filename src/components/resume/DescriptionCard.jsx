@@ -1,7 +1,7 @@
 import React, { useEffect, useState, Children } from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
-import Down from "/assets/down.svg";
+import Down from "/down.svg";
 import CardContent from "@mui/material/CardContent";
 import classNames from "classnames";
 import "./styles.scss";

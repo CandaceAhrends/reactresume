@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "./Link";
-import GitHubIcon from "/assets/gitHub.svg";
-import PDF from "/assets/pdf.svg";
+import GitHubIcon from "/gitHub.svg";
+import PDF from "/pdf.svg";
 
 const Links = () => {
   return (
@@ -11,7 +11,7 @@ const Links = () => {
         <img src={GitHubIcon} alt="github"></img>
         <span>Github Profile</span>
       </Link>
-      <Link href="/assets/candaceahrends.pdf">
+      <Link href="/reactresume/candaceahrends.pdf">
         <img src={PDF} alt="pdf"></img>
         <span>Resume (pdf)</span>
       </Link>

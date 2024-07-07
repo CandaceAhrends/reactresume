@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Items from "./Items";
-import Ham from "/assets/ham.svg";
-import Exit from "/assets/exit.svg";
+import Ham from "/ham.svg";
+import Exit from "/exit.svg";
 import classNames from "classnames";
 
 const Menu = () => {

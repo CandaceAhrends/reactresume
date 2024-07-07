@@ -19,7 +19,7 @@ import "./App.scss";
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="reactresume">
         <div className="app-container">
           <Header>
             <Menu></Menu>
