@@ -25,7 +25,7 @@ const Items = ({ open }) => {
         >
           <Link to={`/${menu.name}`}>
             <span className="icon">
-              <img src={`/reactresume/${menu.name}.svg`} alt={menu.name} />
+              <img src={`/${menu.name}.svg`} alt={menu.name} />
             </span>
           </Link>
         </li>
