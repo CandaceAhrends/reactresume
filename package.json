@@ -16,11 +16,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.2.0",
     "@babel/node": "^7.24.7",
     "@babel/register": "^7.24.6",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.15.21",
+    "aws-amplify": "^6.5.3",
     "classnames": "^2.5.1",
     "cors": "^2.8.5",
     "express": "^4.19.2",
@@ -29,6 +31,8 @@
     "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.2.0",
+    "@aws-amplify/backend-cli": "^1.2.5",
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
@@ -40,7 +44,11 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "aws-cdk": "^2.154.1",
+    "aws-cdk-lib": "^2.154.1",
     "babel-jest": "^29.7.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
@@ -51,6 +59,8 @@
     "jest-environment-jsdom": "^29.7.0",
     "react-test-renderer": "^18.3.1",
     "sass": "^1.77.6",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
     "vite": "^5.3.1"
   },
   "overrides": {
