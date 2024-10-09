@@ -96,13 +96,6 @@ export const jobs = [
   changes that could be drilled into and sorted in order to see consolidated data from multiple
   servers.`,
   },
-  {
-    company: 'Dairy.com',
-    dates: 'June 2008 – November 2013',
-    title: 'Full Stack Developer',
-    description: `Responsible for developing both Server and Client side code using Java, JSP, jQuery, and
-    JavaScript.`,
-  },
 ];
 
 export const resumeSummary = `Highly skilled and experienced Software Developer with over 15 years of experience
