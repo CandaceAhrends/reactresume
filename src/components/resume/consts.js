@@ -3,97 +3,85 @@ export const jobs = [
     company: 'Northwestern Mutual',
     dates: 'Dec 2021 – Current',
     title: 'Senior Web Developer',
-    description: `Designed and implemented a React application based on UX responsive mockups and
-    collaborated with the Security team to integrate an identity service via a JavaScript SDK to
-    add an extra layer of security to the login flow#Redesigned a legacy micro-service route that handles complex registration rules to Node 18
-    with a declarative main method ending in significantly cleaner code along with more efficient
-    Graph QL queries that replaced multiple SQL calls to an older database#
-Modified and enhanced several micro-services. and deployed these using Kubernetes as
-well as updating NPM packages to the latest to migrate from Node 14 to Node 18#
-Troubleshoot and monitor services and applications in Kubernetes and Elk logs and also added Kubernetes credentials and config maps for new API's`,
+    description: `Designed, architected, and implemented an Identity Proofing React, Vite, micro-app as well
+    as created the Docker and Kubernetes file for deployments. This app was based on a UX
+    responsive Figma and integrated into the existing registration process. I added the newly
+    developed components from this project into an existing common library which was
+    subsequently used for several other micro-apps and continues to be used in new apps.#  
+    Redesigned a legacy micro-service route that handles complex registration rules that were
+    applied to different user types. Existing SQL was replaced with GraphQl queries and the
+    code ran more efficiently and significantly increased the registration success rate. Also modified the
+    React Redux app for various changes.#
+    Modified and enhanced additional micro-services and deployed these using Kubernetes as
+    well as updating NPM packages to the latest to migrate from Node 14 to Node 18.#
+    Troubleshoot and monitor services and applications using OpenSearch.#
+    Enhanced security using PKCE with Opta.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Ettain group',
-    subHeader: '(contract Bank of America)',
+    company: 'Bank of America',
+    subHeader: '(contract Ettain group)',
     dates: 'April 2021 – Dec 2021',
     title: 'Senior Web Developer',
-    description: `Maintained and managed the Webpack configuration for customization and
-deployment to the GBAM desktop using OpenFin#
-Implemented reusable components which are used across multiple
-applications including a programatic trading application using WebSockets
-to update live data into the grid to show risk and trade data that was built
-using my shared components library#
-Implemented a Self Service tool using WebSockets, React Router Dom, Ag-
-grid, Sass, and other technologies to automate onboarding new
-assets. This application is driven by metadata to describe the form fields
-from the server side and guides the user through each step where there are
-different actions for different roles.`,
+    description: `Implemented a small options trading ‘data’ application in React and
+    OpenFin using WebSockets to insert real time data into an ag-grid to show
+    risk and trade data that was built using my shared components library.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
     company: 'Brown Brothers Harriman',
     dates: 'Dec 2019 - Apr 2021',
     title: 'Senior Web Developer.',
-    description: `Designed and architected reusable components and new features for the team and built
-shared libraries#
-Designed services using RxJs to manage multiple endpoints sharing response data between
-components#
-Developed a single spa shell container and menu that integrated multiple micro front-ends and
-allowed configuration for additional applications and management of REST API calls to micro-services`,
+    description: `Developed a single spa shell container that integrated multiple micro front-ends and allowed
+    configuration for additional applications and management as well as added Angular
+    components and styling.#
+    Modified and enhanced micro-services using SQL, Spring Boot, and Java.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Ettain group',
-    subHeader: '(contract Bank of America)',
+    company: 'Bank of America',
+    subHeader: '(contract Ettain group)',
     dates: 'Apr 2019 - Dec 2019',
     title: 'Senior Web Developer',
-    description: `Designed and architected new tools using React for the middle office#
-  Involved in weekly design discussions and planning as well as requirements gathering#
-  Wrote common component NPM library to share and reuse components across
-  applications such as the header, footer, userData, custom select components and
-  common search tools#
-  Maintained and managed the Webpack configuration for customization#
-  Implemented a Redux like Store using useReducer, useContext, and other React hooks
-  as well as custom hooks#
-  Participated in code reviews and best practices#
-  Created and utilized code for sorting, parsing, validating, and others`,
+    description: `Designed and architected new tools using React for the middle office.#
+    Involved in weekly design discussions and planning as well as requirements gathering.#
+    Wrote a common component NPM library to share and reuse components across
+    applications such a header, footer, userData, custom select components and common
+    search tools.#
+    Implemented a Self Service tool using WebSockets, React Router Dom, Ag-grid, Sass,
+    and other technologies to automate onboarding new assets. This application is driven
+    by metadata to describe the form fields from the server as per design specs.#
+    `,
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Starpoint',
-    subHeader: '(contract FR Bank of New York)',
+    company: 'Federal Reserve Bank of New York',
+    subHeader: '(contract Starpoint)',
     dates: 'Apr 2018 - Apr 2019',
     title: 'Senior Web Developer',
-    description: `Implemented a reservation system application using Angular 6 including Angular Material,
-  NgRx, RxJS, ES6, Sass, and custom security modules#
-  Took over and added enhancements to a data processing app written in Node.js that read
-  in quarterly data and processed this into tabular data tables#
-  Used a Docker container app with Node.js to create proxy server for a POC to integrate an
-  older technology into the new Angular application for different environments based an API
-  responses#
-  Implemented NgRx store for the application using effects for all server side requests and
-  responses#
-  Implemented styles and UI using Angular Material and Sass based on wireframes`,
+    description: `Architected and developed a new Angular app using NgRx, Angular Material, and Sass
+    based on wireframes to build a calendar to schedule visits to see the gold vault.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: 'TEKSystems',
-    subHeader: '(contract Bank of America )',
+    company: 'Bank of America',
+    subHeader: '(contract TEKSystems)',
     dates: 'May 2016 - Jul 2017',
     title: 'Senior Web Developer',
-    description: `Designed and developed scalable code along with reusable directives and shared services using
-  Angular and ES6 via Babel to integrate various systems into one main portal and query user
-  entitlements to determine and filter the visual work area for ops users#
-  Collaborated with the back-end developers to design the REST API architecture and data
-  flow#
-  Added routing architecture using AngularJS ui-router to set up the navigational scheme and
-  views and implemented Angular interceptors to manage app-wide API request`,
+    description: `Designed and developed scalable code along with reusable directives and shared services
+    using Angular 1.5 and ES6 via Babel to integrate various systems into one main portal and
+    query user entitlements to determine and filter the visual work area for in-house employees.#
+    Collaborated with the back-end developers to design the REST API architecture and data
+    flow.#
+    Added routing architecture using AngularJS ui-router to set up the navigational scheme and
+    views and implemented Angular interceptors to manage app-wide API request.#
+
+    `,
   },
   // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Anagh Tech',
-    subHeader: '(contract Morgan Stanley)',
+    company: 'Morgan Stanley',
+    subHeader: '(contract Anagh Tech)',
     dates: 'Dec 2013 – May 2016',
     title: 'Senior Web Developer',
     description: `Responsible for developing and ongoing maintenance of an analytics library written in Pure
@@ -107,6 +95,13 @@ allowed configuration for additional applications and management of REST API cal
   format JSON data retrieved from the server from various REST API requests to present
   changes that could be drilled into and sorted in order to see consolidated data from multiple
   servers.`,
+  },
+  {
+    company: 'Dairy.com',
+    dates: 'June 2008 – November 2013',
+    title: 'Full Stack Developer',
+    description: `Responsible for developing both Server and Client side code using Java, JSP, jQuery, and
+    JavaScript.`,
   },
 ];
 
