@@ -15,7 +15,7 @@ export const jobs = [
     Modified and enhanced additional micro-services and deployed these using Kubernetes as
     well as updating NPM packages to the latest to migrate from Node 14 to Node 18.#
     Troubleshoot and monitor services and applications using OpenSearch.#
-    Enhanced security using PKCE with Opta.`,
+    Enhanced security using PKCE with Okta.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
