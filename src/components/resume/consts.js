@@ -3,19 +3,23 @@ export const jobs = [
     company: 'Northwestern Mutual',
     dates: 'Dec 2021 – Current',
     title: 'Senior Web Developer',
-    description: `Designed, architected, and implemented an Identity Proofing React, Vite, micro-app as well
-    as created the Docker and Kubernetes file for deployments. This app was based on a UX
-    responsive Figma and integrated into the existing registration process. I added the newly
-    developed components from this project into an existing common library which was
-    subsequently used for several other micro-apps and continues to be used in new apps.#  
-    Redesigned a legacy micro-service route that handles complex registration rules that were
-    applied to different user types. Existing SQL was replaced with GraphQl queries and the
-    code ran more efficiently and significantly increased the registration success rate. Also modified the
-    React Redux app for various changes.#
-    Modified and enhanced additional micro-services and deployed these using Kubernetes as
-    well as updating NPM packages to the latest to migrate from Node 14 to Node 18.#
-    Troubleshoot and monitor services and applications using OpenSearch.#
-    Enhanced security using PKCE with Okta.`,
+    description: `Led Development efforts in the PCKE Auth Scheme change with 0 downtime for 250k
+    monthly active users on the Web.#
+    Designed, architected, and implemented a strong ID Proofing React application from scratch
+as well as created the Docker and Kubernetes file for deployments which streamlined the
+registration flow netting a 5s faster time to completion while lowering fraud risk. This app
+was based on a UX responsive Figma and integrated into the existing registration process
+and designed to be re-used for various public facing flows. I added the newly developed
+components from this project into an existing common library which was subsequently used
+for several other micro-apps and continues to be used in new apps#
+Redesigned a legacy micro-service route that handles complex registration rules that were
+applied to different user types. Existing SQL was replaced with GraphQl queries and the
+code ran more efficiently and significantly reduced call center volume. Also modified the
+React Redux app for various changes.#
+Modified and enhanced additional micro-services and deployed these using Kubernetes as
+well as updating NPM packages to the latest to migrate from Node 14 to Node 18.#
+Created a new GraphQl subgraph to convert an existing graph over to the new architecture.#
+`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
@@ -25,7 +29,8 @@ export const jobs = [
     title: 'Senior Web Developer',
     description: `Implemented a small options trading ‘data’ application in React and
     OpenFin using WebSockets to insert real time data into an ag-grid to show
-    risk and trade data that was built using my shared components library.`,
+    risk and trade data that was built using my shared components library.#
+    Modified and enhanced the backend service using Python.`,
   },
   // --------------------------------------------------------------------------------------------------------
   {
