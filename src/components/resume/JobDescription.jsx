@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import Typography from '@mui/material/Typography';
 import './styles.scss';
 
-const JobDescription = ({ descriptions }) => {
-  const [descriptionLines] = useState(descriptions.split(/\#/g));
+const JobDescription = ({ bullets }) => {
   return (
-    <ul className="job-descriptions">
-      {descriptionLines.map((description) => (
-        <li>
+    <ul
+      key={bullets.length + Math.floor(Math.random()) * 10}
+      className="job-descriptions"
+    >
+      {bullets.map((description) => (
+        <li key={description.length + Math.floor(Math.random()) * 10}>
           <Typography paragraph>{description}</Typography>
         </li>
       ))}

@@ -10,10 +10,10 @@ const Jobs = () => {
     <div className="jobs">
       <h4>Work history</h4>
       {jobs.map((job) => (
-        <section className="job-cards">
+        <section key={job.dates} className="job-cards">
           <DescriptionCard>
             <JobHeader {...job}></JobHeader>
-            <JobDescription descriptions={job.description}></JobDescription>
+            <JobDescription bullets={job.bullets}></JobDescription>
           </DescriptionCard>
         </section>
       ))}

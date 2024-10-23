@@ -1,105 +1,72 @@
 export const jobs = [
   {
     company: 'Northwestern Mutual',
+    title: 'Senior Full Stack Developer',
     dates: 'Dec 2021 – Current',
-    title: 'Senior Web Developer',
-    description: `Led Development efforts in the PCKE Auth Scheme change with 0 downtime for 250k
-    monthly active users on the Web.#
-    Designed, architected, and implemented a strong ID Proofing React application from scratch
-as well as created the Docker and Kubernetes file for deployments which streamlined the
-registration flow netting a 5s faster time to completion while lowering fraud risk. This app
-was based on a UX responsive Figma and integrated into the existing registration process
-and designed to be re-used for various public facing flows. I added the newly developed
-components from this project into an existing common library which was subsequently used
-for several other micro-apps and continues to be used in new apps#
-Redesigned a legacy micro-service route that handles complex registration rules that were
-applied to different user types. Existing SQL was replaced with GraphQl queries and the
-code ran more efficiently and significantly reduced call center volume. Also modified the
-React Redux app for various changes.#
-Modified and enhanced additional micro-services and deployed these using Kubernetes as
-well as updating NPM packages to the latest to migrate from Node 14 to Node 18.#
-Created a new GraphQl subgraph to convert an existing graph over to the new architecture.#
-`,
+    bullets: [
+      'Led Development efforts in the PCKE Auth Scheme change with 0 downtime for 250k monthly active users on the Web.',
+      'Created a public-facing ID proofing microapp in React and Node.js, streamlining the registration process, reducing fraud risk, and improving registration time by 5 seconds. Link to Registration',
+      'Configured CI/CD pipelines for Docker and Kubernetes deployments to AWS, reducing deployment time by at least 10% by resolving code vulnerabilities that previously required exceptions.',
+      'Redesigned a legacy microservice REST API managing complex registration rules, replacing existing SQL queries with GraphQL for boosting efficiency. This transformation significantly increased the success rate by over 30%.  ',
+      'Implemented a new GraphQL subgraph to transition an existing graph to a modern architecture, contributing to Improved developer productivity due to simplified query structures.',
+      'Mentor and guide junior developers, fostering their growth and skill development.  Increased unit test coverage by over 40%.',
+    ],
   },
-  // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Bank of America',
-    subHeader: '(contract Ettain group)',
-    dates: 'April 2021 – Dec 2021',
-    title: 'Senior Web Developer',
-    description: `Implemented a small options trading ‘data’ application in React and
-    OpenFin using WebSockets to insert real time data into an ag-grid to show
-    risk and trade data that was built using my shared components library.#
-    Modified and enhanced the backend service using Python.`,
+    company: 'Bank of America ( Ettain Group contract )',
+    title: 'Senior Front-End Developer',
+    dates: 'Apr 2019 - Dec 2019',
+    bullets: [
+      ' ',
+      'Actively participated in weekly design meetings and requirements-gathering sessions for a middle office tool, collaborating with stakeholders to define user needs and system specifications.',
+      'Established and implemented best practices for the team, focusing on coding standards and collaboration techniques, showcasing team leadership that fostered a culture of quality and consistency across two major projects.',
+      'Developed a common component NPM library to facilitate the sharing and reuse of key UI components, ',
+      'Authored a Self-Service tool leveraging WebSockets, React Router DOM, ag-Grid, and Sass to automate the onboarding of new assets using server-driven metadata to dynamically generate form fields reducing the onboarding time by 50%.',
+    ],
   },
-  // --------------------------------------------------------------------------------------------------------
   {
     company: 'Brown Brothers Harriman',
+    title: 'Senior Front-End Developer',
     dates: 'Dec 2019 - Apr 2021',
-    title: 'Senior Web Developer.',
-    description: `Developed a single spa shell container that integrated multiple micro front-ends and allowed
-    configuration for additional applications and management as well as added Angular
-    components and styling.#
-    Modified and enhanced micro-services using SQL, Spring Boot, and Java.`,
+    bullets: [
+      'Designed Angular services, pipes, and directives in Angular 9 (TypeScript, Sass, RxJS) as part of a collaborative team to build a data onboarding application.',
+      'Enhanced back-end functionality by modifying SQL queries within a Java Spring Boot framework, resulting in improved data processing efficiency and a more seamless onboarding experience for over 100 in-house users.',
+      'Produced comprehensive unit tests using Jest to ensure the reliability and robustness of applications. This testing framework enhanced code quality, keeping coverage over 80%.',
+    ],
   },
-  // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Bank of America',
-    subHeader: '(contract Ettain group)',
-    dates: 'Apr 2019 - Dec 2019',
-    title: 'Senior Web Developer',
-    description: `Designed and architected new tools using React for the middle office.#
-    Involved in weekly design discussions and planning as well as requirements gathering.#
-    Wrote a common component NPM library to share and reuse components across
-    applications such a header, footer, userData, custom select components and common
-    search tools.#
-    Implemented a Self Service tool using WebSockets, React Router Dom, Ag-grid, Sass,
-    and other technologies to automate onboarding new assets. This application is driven
-    by metadata to describe the form fields from the server as per design specs.#
-    `,
-  },
-  // --------------------------------------------------------------------------------------------------------
-  {
-    company: 'Federal Reserve Bank of New York',
-    subHeader: '(contract Starpoint)',
+    company: 'Federal Reserve Bank of New York ( StarPoint contract )',
+    title: 'Senior Front-End Developer',
     dates: 'Apr 2018 - Apr 2019',
-    title: 'Senior Web Developer',
-    description: `Architected and developed a new Angular app using NgRx, Angular Material, and Sass
-    based on wireframes to build a calendar to schedule visits to see the gold vault.`,
+    bullets: [
+      'Architected a new Angular application for a reservation system, utilizing NgRx for state management, Angular Material for UI components, and Sass for styling. Built according to wireframes, the application incorporated custom security modules and leveraged RxJS and ES6 features, Link to Calendar',
+    ],
   },
-  // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Bank of America',
-    subHeader: '(contract TEKSystems)',
+    company: 'Bank of America ( TEKSystems contract )',
+    title: 'Senior Front-End Developer',
     dates: 'May 2016 - Jul 2017',
-    title: 'Senior Web Developer',
-    description: `Designed and developed scalable code along with reusable directives and shared services
-    using Angular 1.5 and ES6 via Babel to integrate various systems into one main portal and
-    query user entitlements to determine and filter the visual work area for in-house employees.#
-    Collaborated with the back-end developers to design the REST API architecture and data
-    flow.#
-    Added routing architecture using AngularJS ui-router to set up the navigational scheme and
-    views and implemented Angular interceptors to manage app-wide API request.#
-
-    `,
+    bullets: [
+      'Designed a scalable code with reusable directives and shared services using Angular 1.5 and ES6 via Babel to unify multiple systems such as Stock Loans into a single portal.  ',
+      'Engaged in cross-functional collaboration with back-end developers to design the REST API architecture and establish data flow, ensuring seamless integration between front-end and back-end systems. ',
+      'Actively participated in UX design meetings and implemented design prototypes as part of the UX team, focusing on optimizing the application for operations users. This collaboration aimed to reduce user time spent in the app, resulting in a more efficient workflow and improved user satisfaction.',
+    ],
   },
-  // --------------------------------------------------------------------------------------------------------
   {
-    company: 'Morgan Stanley',
-    subHeader: '(contract Anagh Tech)',
+    company: 'Morgan Stanley ( Anagh Tech contract )',
+    title: 'Senior JavaScript Developer',
     dates: 'Dec 2013 – May 2016',
-    title: 'Senior Web Developer',
-    description: `Responsible for developing and ongoing maintenance of an analytics library written in Pure
-  JavaScript that was injected into over 200 application pages to bootstrap and then listen
-  and record user actions as well as page usage and speed metrics to be sent to a database
-  using a REST API. This library also exposed an API for custom tracking events#
-  Based on specifications, developed a cross browser Logging API in JavaScript that would
-  queue events and managed how and when the events were sent based on configuration
-  that could be changed on the Server side using a JSON file#
-  Work on a SPA using Angular, CSS, Bootstrap UI and HTML5 that would regroup and
-  format JSON data retrieved from the server from various REST API requests to present
-  changes that could be drilled into and sorted in order to see consolidated data from multiple
-  servers.`,
+    bullets: [
+      'Developed and maintained a robust analytics library in Pure JavaScript, deployed across over 200 application pages to capture user actions, page usage, and performance metrics. This library utilized a REST API for data transmission to a database and provided an exposed API for custom tracking events, enabling enhanced insights into user behavior and application performance.',
+    ],
+  },
+  {
+    company: 'Dairy.com',
+    title: 'Full Stack Developer',
+    dates: 'June 2008 – Nov 2013',
+    bullets: [
+      'Developed both server-side and client-side code using Java, JSP, jQuery, and JavaScript, ensuring seamless integration and functionality across the application.',
+    ],
   },
 ];
 

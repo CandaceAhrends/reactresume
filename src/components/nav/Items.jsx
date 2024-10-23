@@ -19,6 +19,7 @@ const Items = ({ open }) => {
       </li>
       {MENU_ITEMS.map((menu) => (
         <li
+          key={menu.name}
           role="listitem"
           className={selected === menu.name ? 'selected' : ''}
           onClick={() => setSelected(menu.name)}
